@@ -1,4 +1,4 @@
-git_databricks
+Repositório: git_databricks
 
 Repositório com estudos de caso e projetos práticos em Machine Learning, Databricks/Unity Catalog e RAG (Retrieval-Augmented Generation) com LLMs. Reúne desde experimentos de IA generativa aplicada a documentos até modelos preditivos clássicos de detecção de fraude e AutoML.
 
@@ -60,10 +60,17 @@ Dados e infraestrutura: Databricks · PySpark · Unity Catalog · pandas · Matp
 
 ▶️ Como executar o app de RAG (dsa_app.py)
 
+Instale as dependências:
+
 pip install streamlit langchain langchain-groq langchain-huggingface langchain-community langchain-chroma python-dotenv pypdf
 
-# Crie um arquivo .env na raiz do projeto com:
-# GROQ_API_KEY="sua_chave_aqui"
+
+Crie um arquivo .env na raiz do projeto com sua chave da Groq:
+
+GROQ_API_KEY="sua_chave_aqui"
+
+
+Execute a aplicação:
 
 streamlit run "dsa_app.py"
 
