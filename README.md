@@ -63,7 +63,7 @@ Dados e infraestrutura: Databricks · PySpark · Unity Catalog · pandas · Matp
 pip install streamlit langchain langchain-groq langchain-huggingface langchain-community langchain-chroma python-dotenv pypdf
 
 # Crie um arquivo .env na raiz do projeto com:
-# GROQ_API_KEY=sua_chave_aqui
+# GROQ_API_KEY="sua_chave_aqui"
 
 streamlit run "dsa_app.py"
 
